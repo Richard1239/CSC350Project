@@ -1,0 +1,91 @@
+*{box-sizing: border-box;}
+body{
+    background-image: url(images2/programmer.jpg);
+    background-size: 50%;
+}
+.nav{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(48, 14, 126, 0.4);
+    width: auto;
+    height: 120px;
+}
+.link1{
+    font-size: 4em;
+    text-decoration: none;
+    color: crimson;
+    margin-left: 5%;
+    position: absolute;
+    animation: Reveal 1s;
+    transition-property: font-size, color;
+    transition-duration: .3s;
+}
+.link1:hover{
+    color: rgb(220, 150, 20);
+    border-bottom: .1em solid rgb(220, 150, 20);
+    position: relative;
+    margin-bottom: 0;
+    font-size: 4.2em;
+}
+.link2{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: crimson;
+    top: 7%;
+    left: 48%;
+    position: absolute;
+    transition-property: font-size, color;
+    transition-duration: .3s;
+    animation: Reveal 1s 1s backwards;
+}
+.link2:hover{
+    font-size: 1.7em;
+    color: rgb(220, 150, 20);
+    border-bottom: .1em solid rgb(220, 150, 20);
+}
+.link3{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: crimson;
+    top: 7%;
+    right: 20%;
+    position: absolute;
+    transition-property: font-size, color;
+    transition-duration: .3s;
+    animation: Reveal 1s 2s backwards;
+}
+.link3:hover{
+    font-size: 1.7em;
+    color: rgb(220, 150, 20);
+    border-bottom: .1em solid rgb(220, 150, 20);
+}
+@keyframes Reveal{
+    from{opacity: 0;}
+    to{opacity: 1;}    
+}
+.uni{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(48, 14, 126, 0.6);
+    width: 60%;
+    height: 600px;
+    margin-left: 20%;
+}
+.about{
+    font-size: 1.2em;
+    color: rgb(220, 150, 20);
+}
+.link4{
+    text-decoration: none;
+    color: crimson;
+}
+.link4:hover{
+    color: rgb(220, 150, 20);
+    border-bottom: .1em solid rgb(220, 150, 20);
+}
+.head{
+    text-align: center;
+    color: rgb(220, 150, 20);
+}
+.list{
+    color: rgb(220, 150, 20);
+    font-size: 1.2em;
+}

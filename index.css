@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+body{
+    background-image: url(images2/strawhats.jpg);
+    background-size: 50%;
+} 
+.nav{
+      font-family: 'Mochiy Pop P One', sans-serif;
+      background-color: rgba(255, 217, 0, 0.4);
+      width: auto;
+      height: 120px;
+}
+.link1{
+    font-size: 4em;
+    text-decoration: none;
+    color: crimson;
+    margin-left: 5%;
+    position: absolute;
+    animation: Reveal 1s ;
+    transition-property: font-size, color;
+    transition-duration: .3s;
+}
+.link1:hover{
+    color: darkred;
+    border-bottom: .1em solid darkred;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 4.2em;
+}
+.link2{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: crimson;
+    top: 7%;
+    left: 48%;
+    position: absolute;
+    transition-property: font-size, color;
+    transition-duration: .3s;
+    animation: Reveal 1s 1s backwards;
+}
+.link2:hover{
+    font-size: 1.7em;
+    color: darkred;
+    border-bottom: .1em solid darkred;
+}
+.link3{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: crimson;
+    top: 7%;
+    right: 20%;
+    position: absolute;
+    transition-property: font-size, color;
+    transition-duration: .3s;
+    animation: Reveal 1s 2s backwards;
+}
+.link3:hover{
+    font-size: 1.7em;
+    color: darkred;
+    border-bottom: .1em solid darkred;
+}
+@keyframes Reveal{
+    from{opacity: 0;}
+    to{opacity: 1;}    
+}
+.facts{
+      font-family: 'Mochiy Pop P One', sans-serif;
+      background-color: rgba(255, 217, 0, 0.6);
+      width: 60%;
+      height: 600px;
+      margin-left: 20%;
+}
+.head{
+    text-align: center;
+    color: crimson;
+}
+.list{
+    color: crimson;
+    font-size: 1.5em;
+}
+footer{
+      font-family: 'Mochiy Pop P One', sans-serif;
+      background-color: rgba(255, 217, 0, 0.8);
+      width: 35%;
+      margin-left: 32.5%;
+}
+.foot{
+    color: crimson;
+    font-size: 2em;
+    text-align: center;
+}

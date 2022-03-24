@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+table,th,td{
+    border:3px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    font-size: 1.2em;
+}
+.head1{
+    text-align: center;
+    font-size: 3em;
+}
+.head2{
+    font-size: 2em;
+}
+.obj{
+    font-size: 1.2em;
+}
+.head{
+    text-align: center;
+    font-size: 2em;
+}
+.table{
+    margin: auto;
+}
+.list{
+    font-size: 1.2em;
+}
